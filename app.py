@@ -8,7 +8,6 @@ from sklearn.ensemble import RandomForestClassifier
 
 st.title("Predicción de Rotación de Personal")
 st.write("Modelo predictivo para estimar si un empleado puede renunciar.")
-st.success("VERSIÓN NUEVA FUNCIONANDO")
 
 df = pd.read_csv("employee_churn_dataset.csv")
 
